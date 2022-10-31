@@ -4,6 +4,7 @@ public class TernaryGreatestNumberPrinter {
     public void printGreatest(int first, int second)
     {
         int max = first>second ? first:second;
+        System.out.println(max);
 
     }
 }
